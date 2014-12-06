@@ -1,0 +1,17 @@
+---
+# This playbook puts the apprity.properties file onto the system
+
+- hosts:
+    - db1_navabit_com
+  roles:
+    - start_coreos
+
+- hosts:
+    - db2_navabit_com
+  roles:
+    - start_coreos
+
+- hosts:
+    - db3_navabit_com
+  roles:
+    - start_coreos

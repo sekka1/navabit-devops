@@ -1,0 +1,8 @@
+---
+
+FLEET_API_BASE_PATH: v1-alpha
+FLEET_API_PORT: 49153
+
+# lb_coreos_fleet: 10.11.33.30
+
+coreos_unit_base_name: webui
