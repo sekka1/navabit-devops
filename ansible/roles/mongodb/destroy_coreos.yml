@@ -4,3 +4,13 @@
     - db1.navabit.com
   roles:
     - destroy_coreos
+
+- hosts:
+    - db2.navabit.com
+  roles:
+    - destroy_coreos
+
+- hosts:
+    - db3.navabit.com
+  roles:
+    - destroy_coreos
