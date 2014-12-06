@@ -1,5 +1,4 @@
 ---
-# This playbook puts the apprity.properties file onto the system
 
 - hosts:
     - db1_navabit_com
